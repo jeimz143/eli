@@ -1,0 +1,53 @@
+.jsgrid-edit-row input[type="checkbox"], .jsgrid-insert-row input[type="checkbox"], .jsgrid-filter-row input[type="checkbox"], .jsgrid-alt-row input[type="checkbox"], .jsgrid-row input[type="checkbox"], .config-panel input[type=checkbox] {
+    position: relative !important;
+    left: 0 !important;
+    visibility: visible !important;
+    opacity: 1;
+    }
+
+    .jsgrid-grid-body {
+    height: auto !important;
+    }
+
+    .jsgrid-edit-row select, .jsgrid-cell select {
+    display: block !important;
+    }
+
+    .jsgrid-insert-row select,  {
+    display: block !important;
+    }
+
+    .jsgrid-insert-row .select-wrapper .caret {
+    display: none !important;
+    }
+
+    .jsgrid-insert-row .select-wrapper .select-dropdown {
+    display: none !important;
+    }
+
+    #jsGrid-sorting {
+    height: 500px !important;
+    overflow: scroll !important;
+    }
+
+    #jsGrid-page {
+    height: 500px !important;
+    overflow: scroll !important;
+    }
+
+    #jsGrid-custom-row {
+    height: 500px !important;
+    overflow: scroll !important;
+    }
+    .jsgrid-edit-row input, .jsgrid-edit-row select, .jsgrid-edit-row textarea, .jsgrid-filter-row input, .jsgrid-filter-row select, .jsgrid-filter-row textarea, .jsgrid-insert-row input, .jsgrid-insert-row select, .jsgrid-insert-row textarea {
+        width: 100%;
+        padding: 0;
+    }
+
+    .swal-button:focus {
+      background-color: #efefef !important;
+    }
+
+    .swal-button:hover {
+      background-color: #7cd1f9 !important;
+    }
